@@ -2,7 +2,6 @@
 NodeJS Static Resource Server
 
 
-
 ##安装
 ```
 npm i -g anyDoor
