@@ -1,0 +1,45 @@
+{
+  "name": "anydoor_baixinl",
+  "version": "0.1.1",
+  "description": "static rescource server",
+  "main": "src/app.js",
+  "bin": {
+    "anyDoor": "bin/anyDoor"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baixinL/anyDoor.git"
+  },
+  "keywords": [
+    "static",
+    "rescource",
+    "server"
+  ],
+  "author": "baixinL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baixinL/anyDoor/issues"
+  },
+  "homepage": "https://github.com/baixinL/anyDoor#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "handlebars": "^4.4.3",
+    "yargs": "^14.2.0"
+  }
+}
